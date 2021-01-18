@@ -1,6 +1,6 @@
 # Shell-Ubuntu-Install  
-Post-installation script for my personal ubuntu system  
-Feel free to use it, if you're in need for similiar programs  
+Post-installation script for my personal ubuntu system.  
+Feel free to use it, if you're in need for similiar programs. Tested and working on Ubuntu 20.04.2 LTS.  
 Created by github.com/dankoller112  
   
 ## Use script
