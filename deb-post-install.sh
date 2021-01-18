@@ -8,4 +8,5 @@ apt install gnome-tweaks -y
 apt install network-manager-openvpn-gnome openconnect network-manager-openconnect network-manager-openconnect-gnome -y
 apt install texlive texlive-lang-german texlive-latex-extra -y
 snap install --classic eclipse -y
+snap install --classic code -y
 #etc
