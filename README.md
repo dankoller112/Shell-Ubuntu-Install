@@ -7,4 +7,4 @@ Created by github.com/dankoller112
 - Open Terminal
 - sudo -i  
 - apt install wget -y
-- wget -O - https://raw.githubusercontent.com/dankoller112/Shell-Ubuntu-Install/deb-post-install.sh | bash
+- wget -O - https://raw.githubusercontent.com/dankoller112/Shell-Ubuntu-Install/main/deb-post-install.sh | bash
