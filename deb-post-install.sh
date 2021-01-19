@@ -8,8 +8,8 @@ sudo apt install network-manager-openvpn-gnome openconnect network-manager-openc
 sudo apt install texlive texlive-lang-german texlive-latex-extra -y
 sudo apt install texmaker -y
 sudo apt install git -y
-sudo apt install zsh
-sudo wget sh -c "$(wget -O - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt install zsh -y
+sudo wget sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -n
 sudo snap install chromium chromium-ffmpeg
 sudo snap install --classic eclipse
 sudo snap install --classic code
