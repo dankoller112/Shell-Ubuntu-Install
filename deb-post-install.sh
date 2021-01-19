@@ -10,7 +10,7 @@ sudo apt install texmaker -y
 sudo apt install git -y
 sudo apt install zsh
 sudo wget sh -c "$(wget -O - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sudo snap install chromium chromium-ffmpeg -y
-sudo snap install --classic eclipse -y
-sudo snap install --classic code -y
+sudo snap install chromium chromium-ffmpeg
+sudo snap install --classic eclipse
+sudo snap install --classic code
 #etc
