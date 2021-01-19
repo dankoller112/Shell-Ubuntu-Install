@@ -5,6 +5,5 @@ Created by github.com/dankoller112
   
 ## Use script
 - Open Terminal
-- sudo -i  
-- apt install wget -y
-- wget -O - https://raw.githubusercontent.com/dankoller112/Shell-Ubuntu-Install/main/deb-post-install.sh | bash
+- sudo apt install wget -y
+- sudo wget -O - https://raw.githubusercontent.com/dankoller112/Shell-Ubuntu-Install/main/deb-post-install.sh | bash
