@@ -4,7 +4,7 @@ Feel free to use it, if you're in need for similiar programs. Tested and working
 Created by github.com/dankoller112  
   
 ## Use script  
-(Requieres "snap" -> sudo apt install snapd)  
+(Requires "snap" -> sudo apt install snapd)  
   
 - Open Terminal
 - sudo apt install wget -y
