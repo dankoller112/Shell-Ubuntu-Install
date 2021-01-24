@@ -16,4 +16,5 @@ sudo sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/
 sudo snap install chromium chromium-ffmpeg
 sudo snap install --classic eclipse
 sudo snap install --classic code
+sudo snap install discord
 #etc
