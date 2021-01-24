@@ -6,6 +6,7 @@ sudo apt install screenfetch -y
 sudo apt install gnome-tweaks -y
 sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-source -y
 sudo apt install build-essential -y
+sudo apt install python3 -y
 sudo apt filezilla -y
 sudo apt install network-manager-openvpn-gnome openconnect network-manager-openconnect network-manager-openconnect-gnome -y
 sudo apt install texlive texlive-lang-german texlive-latex-extra -y
