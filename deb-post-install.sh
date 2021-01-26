@@ -1,4 +1,7 @@
 #!/bin/sh
+# Shell script for post installation in ubuntu and debian systems
+# "snap" is required
+# Dan Koller - 18/Jan/2021
 sudo apt update
 sudo apt upgrade -y
 sudo apt autoremove -y
