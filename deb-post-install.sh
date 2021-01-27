@@ -24,4 +24,5 @@ sudo snap install chromium chromium-ffmpeg
 sudo snap install --classic eclipse
 sudo snap install --classic code
 sudo snap install discord
+sudo snap install spotify
 #etc
