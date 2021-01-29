@@ -1,6 +1,11 @@
 #!/bin/sh
 # Shell script for post installation in ubuntu and debian systems. Requires "snap".
 # Dan Koller - 18/Jan/2021
+# Add additional packages
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+# Update system
 sudo apt update
 sudo apt upgrade -y
 sudo apt autoremove -y
@@ -17,11 +22,6 @@ sudo apt install texmaker -y
 sudo apt install git -y
 sudo apt install zsh -y
 sudo sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-# Sublime packages
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo apt-get install apt-transport-https
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt update
 sudo apt install sublime-text -y
 sudo apt install sublime-merge -y
 # Snap packages
