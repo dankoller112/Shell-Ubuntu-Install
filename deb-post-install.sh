@@ -17,7 +17,7 @@ done
 
 # Add additional packages
 
-echo Adding additional packages...
+echo "Adding additional packages..."
 
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https
@@ -25,7 +25,7 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 
 # Update system
 
-echo Updating system...
+echo "Updating system..."
 
 sudo apt update
 sudo apt upgrade -y
@@ -33,7 +33,7 @@ sudo apt autoremove -y
 
 # Standard packages
 
-echo Installing standard packages...
+echo "Installing standard packages..."
 
 sudo apt install screenfetch -y
 sudo apt install gnome-tweaks -y
@@ -52,7 +52,7 @@ sudo apt install sublime-merge -y
 
 # Snap packages
 
-echo Installing snap packages...
+echo "Installing snap packages..."
 
 sudo snap install chromium chromium-ffmpeg
 sudo snap install --classic eclipse
@@ -60,6 +60,6 @@ sudo snap install --classic code
 sudo snap install discord
 sudo snap install spotify
 
-echo Success!
+echo "Success!"
 
 #etc
