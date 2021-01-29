@@ -7,6 +7,6 @@ Created by github.com/dankoller112
 (Requires "snap")
   
 - Open Terminal
-- sudo apt install snapd -y (Optional)
+- sudo apt install snap -y (Optional)
 - sudo apt install wget -y (Optional)
 - sudo wget -O - https://raw.githubusercontent.com/dankoller112/Shell-Ubuntu-Install/main/deb-post-install.sh | bash
