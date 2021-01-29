@@ -4,8 +4,9 @@ Feel free to use it, if you're in need for similiar programs. Tested and working
 Created by github.com/dankoller112  
   
 ## Use script  
-(Requires "snap" -> sudo apt install snapd)  
+(Requires "snap")
   
 - Open Terminal
-- sudo apt install wget -y
+- sudo apt install snapd -y (Optional)
+- sudo apt install wget -y (Optional)
 - sudo wget -O - https://raw.githubusercontent.com/dankoller112/Shell-Ubuntu-Install/main/deb-post-install.sh | bash
