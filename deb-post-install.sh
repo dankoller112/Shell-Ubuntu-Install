@@ -10,7 +10,7 @@ while true; do
     read -p "Do you want to install snap?" yn
     case $yn in
         [Yy]* ) sudo apt install snap -y && apt install snapd -y; break;;
-        [Nn]* ) ; break;
+        [Nn]* ) break;;
         * ) echo "Please answer yes or no."; break;
     esac
 done
