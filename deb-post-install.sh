@@ -4,13 +4,12 @@
 
 # Install required packages for complete installation
 
-echo ""Snap" is recommended for this script to work properly."
-
-echo "Do you wish to install snap?"
-select yn in "Yes" "No"; do
-    case $yn in
-        Yes ) sudo apt install snap -y && apt install snapd -y; break;;
-        No ) break;;
+while true; do
+    read -p "Do you want to install snap?" yn
+    case $yn* in
+        [Yy]* ) sudo apt install snap -y && apt install snapd -y; break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer yes or no.";;
     esac
 done
 
