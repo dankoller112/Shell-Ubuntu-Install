@@ -6,7 +6,6 @@
 
 echo ""Snap" is recommended for this script to work properly."
 
-# Prompting for snap
 while true; do
     read -p "Do you want to install snap?" yn
     case $yn* in
