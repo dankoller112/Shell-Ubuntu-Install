@@ -11,7 +11,7 @@ while true; do
     case $yn in
         [Yy]* ) sudo apt install snap -y && apt install snapd -y; break;;
         [Nn]* ) break;;
-        * ) echo "Please answer yes or no."; break;
+        * ) echo "Please answer yes or no.";;
     esac
 done
 
