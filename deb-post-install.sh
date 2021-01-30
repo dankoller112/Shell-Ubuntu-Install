@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Shell script for post installation in ubuntu and debian systems. Requires "snap".
 # Dan Koller - 18/Jan/2021
 
