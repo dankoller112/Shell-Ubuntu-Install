@@ -8,4 +8,4 @@ Created by github.com/dankoller112
   
 - Open Terminal
 - sudo apt install wget -y (Optional)
-- sudo wget -O - "https://raw.githubusercontent.com/dankoller112/Shell-Ubuntu-Install/main/deb-post-install.sh" | bash
+- sudo wget -O - https://raw.githubusercontent.com/dankoller112/Shell-Ubuntu-Install/main/deb-post-install.sh | bash
