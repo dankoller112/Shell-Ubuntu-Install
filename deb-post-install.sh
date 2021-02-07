@@ -33,6 +33,8 @@ sudo apt autoremove -y
 
 echo "Installing standard packages..."
 
+sudo apt install firefox language-pack-de-base -y
+sudo apt install thunderbird -y
 sudo apt install screenfetch -y
 sudo apt install gnome-tweaks -y
 sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-source -y
