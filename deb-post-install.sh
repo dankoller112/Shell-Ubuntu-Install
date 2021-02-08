@@ -48,6 +48,7 @@ sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-source -y
 sudo apt install build-essential -y
 sudo apt install python3 -y
 sudo apt install filezilla -y
+sudo apt install nvim -y
 sudo apt install git -y
 sudo apt install zsh -y
 sudo sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
